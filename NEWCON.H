@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <conio.h>
+
 void currency_convertor_pro(int s,int d)
 {float  i,o;
 	if((s==1)&&(d==1))
@@ -459,7 +462,7 @@ int currency_convertor_out()
 int o;
 do
 {
-clrscr();
+// clrscr();
 printf("\nenter a valid output currency type:-\n");
 printf("\n1.RUPEE\n");
 printf("\n2.USD(US Dollar)\n");
@@ -481,7 +484,7 @@ int currency_convertor_in()
 int i;
 do
 {
-clrscr();
+
 printf("\nenter a valid input currency type:-\n");
 printf("\n1.RUPEE\n");
 printf("\n2.USD(US Dollar)\n");

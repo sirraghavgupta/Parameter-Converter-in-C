@@ -1,9 +1,12 @@
+#include <stdio.h>
+#include <conio.h>
+
 int weight_convertor_out()
 {
 int o;
 do
 {
-clrscr();
+// clrscr();
 printf("\nenter a valid output weight unit:-\n");
 printf("\n1.Kilograms\n");
 printf("\n2.Grams\n");
@@ -289,7 +292,7 @@ int weight_convertor_in()
 int i;
 do
 {
-clrscr();
+// clrscr();
 printf("\nenter ur input weight unit:-\n");
 printf("\n1.Kilograms\n");
 printf("\n2.Grams\n");

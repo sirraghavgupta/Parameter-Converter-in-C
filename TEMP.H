@@ -1,9 +1,12 @@
+#include <stdio.h>
+#include <conio.h>
+
 int temp_convertor_in()
 {
 int i;
 do
 {
-clrscr();
+// clrscr();
 printf("\nenter ur input temperature unit:-\n");
 printf("\n1.Celcius\n");
 printf("\n2.Kelvin\n");
@@ -20,7 +23,7 @@ int temp_convertor_out()
 int o;
 do
 {
-clrscr();
+// clrscr();
 printf("\nenter ur output temperature unit:-\n");
 printf("\n1.Celcius\n");
 printf("\n2.Kelvin\n");
@@ -32,7 +35,7 @@ scanf("%d",&o);
 return o;
 }
 
-void temp_convertor_pro(in,out)
+void temp_convertor_pro(int in,int out)
 {float i,o;
 if((in==1)&&(out==1))
 		{
